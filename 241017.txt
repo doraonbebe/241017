@@ -1,0 +1,30 @@
+1.h(n) : 1~6 : heading
+- 문서 타이틀
+
+2.p : paragraph
+- 문서 내용
+
+3.br : break
+- 문서 행을 인위적으로 나누고자 할 때
+
+4.hr : horizontal Ruler
+- 문서 상에 가로 선을 그릴 수 있음
+
+5.a : anchor
+- 특정 텍스트 혹은 도형을 감싸안고 있는 태그(링크) => 원하는 경로로 사용자를 이동시킬 수 있음
+- 반드시 사용자를 이동시키고자 하는 경로 속성값(http://www.naver.com)을 가지고 있어야함!!!
+- href(hyper reference) 속성값 (*필수)
+
+6.ul, ol, li
+- 어떤 목록 리스트를 만들고자 할 때 사용하는 태그
+- ul = Unorder List (*항상 부모)
+- ol = Order List (*항상 부모)
+- li = List Item (*항상 자식)
+
+7.table, tr, th, td
+- 어떤 표를 만들고자 할 때 사용하는 태그
+- table = 테이블의 최상위 부모.
+- tr = table row 테이블의 한 행.
+- td = table data 테이블의 데이터 셀.
+- th = table header 테이블의 헤더 셀(열 제목).
+ thead / tbody / tfoot 각각 테이블의 헤더, 본문, 푸터를 그룹화.
